@@ -13,4 +13,10 @@ pipeline {
          }
       }
   }
+  
+  post {
+    aborted {
+      echo 'Why did you not push my button?'
+    }
+  }
 }
