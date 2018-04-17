@@ -13,7 +13,10 @@ pipeline {
          }
       }
   }
-  
+  environment {
+MY_NAME = 'Mary'
+}
+
   post {
     aborted {
       echo 'Why did you not push my button?'
